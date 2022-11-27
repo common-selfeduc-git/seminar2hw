@@ -2,8 +2,25 @@
 
 456 -> 5
 782 -> 8
-918 -> 1*/
+918 -> 1
 Console.Write("Введите трехзначное число:");
 int a = Convert.ToInt32(Console.ReadLine());
 int result = (a % 100 - a % 10)/10;
-Console.WriteLine(result);
+Console.WriteLine(result);*/
+
+/*Задача 13: Напишите программу, которая выводит третью цифру заданного числа или сообщает, что третьей цифры нет.
+
+645 -> 5
+
+78 -> третьей цифры нет
+
+32679 -> 6*/
+
+Console.Write("Введите трехзначное число:");
+int a = Convert.ToInt32(Console.ReadLine());
+int result = (a % 1000)/100;
+if (a / 100 == 0) {
+    Console.WriteLine("Третьей цифры не существует");
+}else{
+    Console.WriteLine(result);
+}
