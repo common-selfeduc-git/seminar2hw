@@ -5,7 +5,7 @@
 918 -> 1
 Console.Write("Введите трехзначное число:");
 int a = Convert.ToInt32(Console.ReadLine());
-int result = (a % 100 - a % 10)/10;
+int result = (a % 100)/10;
 Console.WriteLine(result);*/
 
 /*Задача 13: Напишите программу, которая выводит третью цифру заданного числа или сообщает, что третьей цифры нет.
