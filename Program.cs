@@ -31,10 +31,10 @@ if (a / 100 == 0) {
 7 -> да
 1 -> нет*/
 
-Console.Write("Введите день недели по порядковому номеру: ");
+/*Console.Write("Введите день недели по порядковому номеру: ");
 int a = Convert.ToInt32(Console.ReadLine());
 if ((a == 6) || (a == 7)) {
     Console.WriteLine("Да");
 }else{
     Console.WriteLine("Нет");
-}
+}*/
